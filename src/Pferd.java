@@ -12,13 +12,16 @@ public class Pferd
 
     public void StellDichVor()
     {
-        System.out.println("Hallo, ich bin '" + name
-                + "', wohne im Stall '" + Stall.name
-                + "', Hausnummer " + hausnummer + ".");
+        System.out.println("Hallo, ich bin '" + name + "', wohne im Stall '" + Stall.name + "', Hausnummer " + hausnummer + ".");
     }
 
     public void ZiehUm(int neueHausnummer)
     {
         hausnummer = neueHausnummer;
+    }
+
+    public static void StallTuerZu()
+    {
+        System.out.println("Rumms");
     }
 }

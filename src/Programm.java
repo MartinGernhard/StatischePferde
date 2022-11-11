@@ -36,9 +36,13 @@ public class Programm
         StelltEuchAlleVor();
         System.out.println("tollerInt = " + tollerInt);
 
+        // WTF. Boxed is immutable.
         int andererInt = 5;
         boxingIntTest(andererInt);
         System.out.println("andererInt = " + andererInt);
+
+        Pferd.StallTuerZu();
+        herbert.StallTuerZu();
     }
 
     public void StelltEuchAlleVor()
