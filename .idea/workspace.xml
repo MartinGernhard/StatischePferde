@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1eb0fe-82f4-4794-8cdb-b6871b245136" name="Changes" comment="Wir haben eine Stallklasse.">
+    <list default="true" id="cf1eb0fe-82f4-4794-8cdb-b6871b245136" name="Changes" comment="Primitive vs. Referenzen als Parameter aendern getestet.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pferd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pferd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Programm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programm.java" afterDir="false" />
     </list>
@@ -41,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
   <component name="RunManager">
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668195520714</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Primitive vs. Referenzen als Parameter aendern getestet.">
+      <created>1668200310202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668200310202</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +115,8 @@
     <MESSAGE value="Spielstand: Alle in einem Stall" />
     <MESSAGE value="Wir machen uns jetzt eine Stallklasse." />
     <MESSAGE value="Wir haben eine Stallklasse." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wir haben eine Stallklasse." />
+    <MESSAGE value="Primitive vs. Referenzen als Parameter aendern getestet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Primitive vs. Referenzen als Parameter aendern getestet." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
