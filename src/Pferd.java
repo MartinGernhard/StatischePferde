@@ -1,13 +1,14 @@
 public class Pferd
 {
-    static String stall;
-    String name;
-    int hausnummer;
+    public static String stall;
+    public String name;
+    public int hausnummer;
 
-    public Pferd(String name, int hausnummer)
+    public Pferd(String name, int hausnummer, String stall)
     {
         this.name = name;
         this.hausnummer = hausnummer;
+        this.stall = stall;
     }
 
     public void StellDichVor()

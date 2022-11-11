@@ -6,17 +6,14 @@ public class Programm
 
     public void Start()
     {
-        Pferd herbert = new Pferd("Herbert", 9);
-        Pferd monika = new Pferd("Monika", 13);
+        Pferd herbert = new Pferd("Herbert", 9, "Hachinghausen");
+        Pferd monika = new Pferd("Monika", 13, "Huchinghausen");
         allePferde.add(herbert);
         allePferde.add(monika);
-        Pferd.stall = "Hachinghausen";
-
         StelltEuchAlleVor();
 
-        Pferd.stall = "Huchbachtal";
-
-        StelltEuchAlleVor();
+        System.out.println("Der Stall ist: " + Pferd.stall);
+        System.out.println("Die Hausnummer ist: " + monika.hausnummer);
     }
 
     public void StelltEuchAlleVor()
