@@ -12,7 +12,7 @@ public class Programm
         allePferde.add(monika);
         StelltEuchAlleVor();
 
-        System.out.println("Der Stall ist: " + Pferd.stall);
+        // System.out.println("Der Stall ist: " + Pferd.stall);
         System.out.println("Die Hausnummer ist: " + monika.hausnummer);
     }
 

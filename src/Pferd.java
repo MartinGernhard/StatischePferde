@@ -1,18 +1,19 @@
 public class Pferd
 {
-    public static String stall;
     public String name;
     public int hausnummer;
 
-    public Pferd(String name, int hausnummer, String stall)
+    public Pferd(String name, int hausnummer, String stallName)
     {
         this.name = name;
         this.hausnummer = hausnummer;
-        this.stall = stall;
+        Stall.name = stallName;
     }
 
     public void StellDichVor()
     {
-        System.out.println("Hallo, ich bin '" + name + "', wohne im Stall '" + stall + "', Hausnummer " + hausnummer + ".");
+        System.out.println("Hallo, ich bin '" + name
+                + "', wohne im Stall '" + Stall.name
+                + "', Hausnummer " + hausnummer + ".");
     }
 }
