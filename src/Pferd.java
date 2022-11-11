@@ -16,4 +16,9 @@ public class Pferd
                 + "', wohne im Stall '" + Stall.name
                 + "', Hausnummer " + hausnummer + ".");
     }
+
+    public void ZiehUm(int neueHausnummer)
+    {
+        hausnummer = neueHausnummer;
+    }
 }

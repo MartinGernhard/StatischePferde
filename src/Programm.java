@@ -4,16 +4,41 @@ public class Programm
 {
     ArrayList<Pferd> allePferde = new ArrayList<>();
 
-    public void Start()
+    public void boxingIntTest(Integer geboxederInt)
+    {
+        geboxederInt = 12;
+    }
+
+    public void machWasMitPferdUndInt(Pferd p, int i)
+    {
+        p.ZiehUm(101);
+        i = 19;
+    }
+
+    public void Start1()
     {
         Pferd herbert = new Pferd("Herbert", 9, "Hachinghausen");
         Pferd monika = new Pferd("Monika", 13, "Huchinghausen");
         allePferde.add(herbert);
         allePferde.add(monika);
         StelltEuchAlleVor();
-
-        // System.out.println("Der Stall ist: " + Pferd.stall);
         System.out.println("Die Hausnummer ist: " + monika.hausnummer);
+    }
+
+    public void Start2()
+    {
+        Pferd herbert = new Pferd("Herbert", 9, "Hachinghausen");
+        allePferde.add(herbert);
+        StelltEuchAlleVor();
+        int tollerInt = 3;
+        machWasMitPferdUndInt(herbert, tollerInt);
+        System.out.println("NACHHER(bert)");
+        StelltEuchAlleVor();
+        System.out.println("tollerInt = " + tollerInt);
+
+        int andererInt = 5;
+        boxingIntTest(andererInt);
+        System.out.println("andererInt = " + andererInt);
     }
 
     public void StelltEuchAlleVor()

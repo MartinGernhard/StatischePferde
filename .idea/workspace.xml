@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf1eb0fe-82f4-4794-8cdb-b6871b245136" name="Changes" comment="Wir machen uns jetzt eine Stallklasse.">
-      <change afterPath="$PROJECT_DIR$/src/Stall.java" afterDir="false" />
+    <list default="true" id="cf1eb0fe-82f4-4794-8cdb-b6871b245136" name="Changes" comment="Wir haben eine Stallklasse.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pferd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pferd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Programm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programm.java" afterDir="false" />
     </list>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668194357970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Wir haben eine Stallklasse.">
+      <created>1668195520714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668195520714</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +108,8 @@
     <MESSAGE value="Spielstand: Drei Klassen" />
     <MESSAGE value="Spielstand: Alle in einem Stall" />
     <MESSAGE value="Wir machen uns jetzt eine Stallklasse." />
-    <option name="LAST_COMMIT_MESSAGE" value="Wir machen uns jetzt eine Stallklasse." />
+    <MESSAGE value="Wir haben eine Stallklasse." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wir haben eine Stallklasse." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
