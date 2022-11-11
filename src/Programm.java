@@ -1,30 +1,31 @@
 import java.util.ArrayList;
 
-public class Programm {
-    public void StellEuchAllVor(ArrayList<Pferd> pferde)
-    {
-        int i = 0;
-        while(i < pferde.size())
-        {
-            Pferd p = pferde.get(i);
-            p.StellDichVor();
-            i++;
-        }
-    }
+public class Programm
+{
+    ArrayList<Pferd> allePferde = new ArrayList<>();
 
     public void Start()
     {
-        ArrayList<Pferd> allePferde = new ArrayList<>();
-        Pferd a = new Pferd("Herbert", 9);
-        Pferd b = new Pferd("Monika", 13);
-        allePferde.add(a);
-        allePferde.add(b);
+        Pferd herbert = new Pferd("Herbert", 9);
+        Pferd monika = new Pferd("Monika", 13);
+        allePferde.add(herbert);
+        allePferde.add(monika);
         Pferd.stall = "Hachinghausen";
 
-        StellEuchAllVor(allePferde);
+        StelltEuchAlleVor();
 
-        a.stall = "Huchbachtal";
+        Pferd.stall = "Huchbachtal";
 
-        StellEuchAllVor(allePferde);
+        StelltEuchAlleVor();
+    }
+
+    public void StelltEuchAlleVor()
+    {
+        int i = 0;
+        while (i < allePferde.size()) {
+            Pferd p = allePferde.get(i);
+            p.StellDichVor();
+            i++;
+        }
     }
 }
